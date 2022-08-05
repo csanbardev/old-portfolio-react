@@ -1,0 +1,28 @@
+/* main.css */
+
+/* base */
+@import './base/normalize.css';
+@import './base/reset.css';
+@import './base/global.css';
+
+/* layout */
+@import './layout/footer.css';
+@import './layout/header.css';
+@import './layout/navigation.css';
+
+/* components */
+@import './components/button.css';
+@import './components/contact.css';
+@import './components/headers.css';
+@import './components/banner.css';
+@import './components/works.css';
+@import './components/card.css';
+
+/* pages */
+@import './pages/index.css';
+/*@import './pages/article.css';*/
+
+/* utils */
+@import './utils/fonts.css';
+@import './utils/utilities.css';
+@import './utils/variables.css';

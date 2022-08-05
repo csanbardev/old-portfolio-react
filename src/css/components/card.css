@@ -1,0 +1,64 @@
+/* Cards Styles */
+
+.card{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.card-img{
+  width: 100%;
+  height: 100%;
+  filter: brightness(0.5);
+  object-fit: cover;
+  
+}
+
+.card-info{
+  position: absolute;
+  color: white;
+  padding-right: 1rem;
+  width: 100%;
+  line-height: 1rem;
+}
+
+
+.card-title{
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding-bottom: .5rem;
+}
+
+.card-subtitle{
+  line-height: 1.8rem;
+  padding-right: 1rem;
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+
+.card-link{
+  margin-top: 1.3rem;
+  display: block;
+  font-size: 1rem;
+  color: white;
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 1024px) {
+  
+  
+  .card-title{
+    font-size: 3rem;
+  }
+  
+  .card-subtitle{
+    padding-top: .8rem;
+    font-size: 2rem;
+  }
+  
+  .card-link{
+    font-size: 1rem;
+  }
+}

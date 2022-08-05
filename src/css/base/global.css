@@ -1,0 +1,28 @@
+body {
+  min-height: 100vh;
+  background: var(--background);
+}
+
+#root {
+  font-family: 'Kanit-Regular';
+}
+
+
+
+
+a {
+  text-decoration: none;
+  color: var(--paragraph);
+  cursor: pointer;
+}
+a:hover{
+  color:var(--highlight);
+}
+
+header {
+  height: 4rem;
+}
+
+footer {
+  height: 8rem;
+}

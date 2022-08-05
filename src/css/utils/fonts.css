@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Kanit-Regular';
+  src: url(/fonts/Kanit-Regular.ttf);
+}
+
+body{
+  font-size: 16px;
+}
+
+
+@media (min-width: 1280){
+  body{
+    font-size: 19px;
+  }
+}
+
+
+/* Text Styles */
+.title-text{
+  font-size: var(--size-lg);
+}
+
+h3{
+  font-size: var(--size-lg);
+}

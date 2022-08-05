@@ -1,0 +1,14 @@
+/* Works styles */
+
+#works{
+  display: grid;
+  grid-auto-rows: 18rem;
+  
+  margin-top: 2rem;
+}
+
+@media (min-width: 1024px) {
+  #works{
+    grid-auto-rows: 32rem;
+  }
+}

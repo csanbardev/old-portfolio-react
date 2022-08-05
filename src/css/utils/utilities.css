@@ -1,0 +1,26 @@
+/* utilities */
+
+/* grid styles */
+.gallery {
+    display: grid;
+    gap: 2rem .8rem;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr));
+    
+}
+
+.grid{
+    display: grid;
+}
+
+
+
+.extra-margin{
+  margin: 0 1rem 0 1rem;
+}
+
+@media only screen and (min-width: 1024px) {
+  .extra-margin{
+    margin: 0 5rem 0 5rem;
+  }
+}
