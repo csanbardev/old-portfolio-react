@@ -1,15 +1,14 @@
-import { Header } from "./components/Header"
-import { Main } from "./components/Main"
-import { Footer } from "./components/Footer"
-
+import { Route, Routes, Link } from 'react-router-dom'
+import { Home } from './components/Home'
 export function App() {
 
 
   return (
     <>
-      <Header />
-      <Main />
-      <Footer />
+      <Routes>
+        <Route path='/' element={<Home />} />
+
+      </Routes>
     </>
   )
 }

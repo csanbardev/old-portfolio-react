@@ -1,6 +1,6 @@
 /* Cards Styles */
 
-.card{
+.card {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -8,15 +8,15 @@
   overflow: hidden;
 }
 
-.card-img{
+.card-img {
   width: 100%;
   height: 100%;
   filter: brightness(0.5);
   object-fit: cover;
-  
+
 }
 
-.card-info{
+.card-info {
   position: absolute;
   color: white;
   padding-right: 1rem;
@@ -25,20 +25,20 @@
 }
 
 
-.card-title{
+.card-title {
   font-size: 1.8rem;
   font-weight: 600;
   padding-bottom: .5rem;
 }
 
-.card-subtitle{
+.card-subtitle {
   line-height: 1.8rem;
   padding-right: 1rem;
   font-size: 1.6rem;
   font-weight: normal;
 }
 
-.card-link{
+.card-link {
   margin-top: 1.3rem;
   display: block;
   font-size: 1rem;
@@ -47,18 +47,50 @@
 }
 
 @media only screen and (min-width: 1024px) {
-  
-  
-  .card-title{
+
+
+  .card-title {
     font-size: 3rem;
   }
-  
-  .card-subtitle{
+
+  .card-subtitle {
     padding-top: .8rem;
     font-size: 2rem;
   }
-  
-  .card-link{
+
+  .card-link {
     font-size: 1rem;
   }
+}
+
+
+
+.card-details {
+  background: rgba(65, 64, 64, 0.444);
+  padding-top: 1.5rem;
+  padding-right: 25%;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3rem;
+  gap: .5rem;
+}
+
+.card-details a {
+  color: var(--text);
+  text-decoration: underline;
+}
+
+.card-details-title {
+  font-size: var(--size-md);
+}
+
+.card-details-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-content: center;
+}
+
+.card-details-icons>img {
+  height: 2rem;
 }
