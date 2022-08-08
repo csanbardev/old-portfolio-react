@@ -12,6 +12,7 @@
 
 /* components */
 @import './components/button.css';
+@import './components/details.css';
 @import './components/contact.css';
 @import './components/headers.css';
 @import './components/banner.css';

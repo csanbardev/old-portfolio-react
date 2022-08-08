@@ -1,0 +1,45 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Aficiones-React",
+      "tools": [
+        {
+          "name": "HTML",
+          "iconLink": "/icons/tecnologies/html.svg",
+          "description": "La base del proyecto, por supuesto, es HTML5. He prestado especial atención a los bloques semánticos y a detalles SEO"
+        },
+        {
+          "name": "CSS",
+          "iconLink": "/icons/tecnologies/css.svg",
+          "description": "Puro CSS, sin librerías ni complementos. He recurrido a las funcionalidades más recientes para hacer la web responsive"
+        },
+        {
+          "name": "React",
+          "iconLink": "/icons/tecnologies/react.svg",
+          "description": "Mi primer proyecto con React. He creado componentes propios y he recurrido a React-Router para la paginación"
+        },
+        {
+          "name": "Vite",
+          "iconLink": "/icons/tecnologies/vite.svg",
+          "description": "El toque mágico de Vite permite que la web esté más optimizada y que el proceso de creación haya sido más rápido"
+        }
+      ],
+      "tecnologies": [
+        "HTML",
+        "CSS",
+        "React",
+        "Vite"
+      ],
+      "icons": [
+        "/icons/tecnologies/html.svg",
+        "/icons/tecnologies/css.svg",
+        "/icons/tecnologies/react.svg",
+        "/icons/tecnologies/vite.svg"
+      ],
+      "shortDescription": "It shows all my favourite series, animes and films",
+      "longDescription": "It shows all my favourite series, animes and films. It get data from an API that call a external list created by me",
+      "link": "https://aficiones-react.netlify.app"
+    }
+  ]
+}

@@ -7,11 +7,7 @@ export function Project(props) {
         <h3 className="card-title">{props.title}</h3>
         <h4 className="card-subtitle">{props.subtitle}</h4>
         <a href={props.link} className="card-link">Show Details</a>
-
-
-
       </div>
-
     </article>
   )
 }

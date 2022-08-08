@@ -62,35 +62,3 @@
     font-size: 1rem;
   }
 }
-
-
-
-.card-details {
-  background: rgba(65, 64, 64, 0.444);
-  padding-top: 1.5rem;
-  padding-right: 25%;
-  display: flex;
-  flex-direction: column;
-  line-height: 1.3rem;
-  gap: .5rem;
-}
-
-.card-details a {
-  color: var(--text);
-  text-decoration: underline;
-}
-
-.card-details-title {
-  font-size: var(--size-md);
-}
-
-.card-details-icons {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-  align-content: center;
-}
-
-.card-details-icons>img {
-  height: 2rem;
-}
