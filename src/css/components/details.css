@@ -1,7 +1,12 @@
 /* Details Styles */
 
+#project-image {
+  width: 100%;
+  padding-top: 2rem;
+}
 
-#tools-title {
+#tools-title,
+#links-title {
   padding-top: 2rem;
 }
 
@@ -27,13 +32,25 @@
 }
 
 .icons-container--icon {
-  width: 5rem;
+  height: 6rem;
   margin: auto;
   padding-bottom: 1rem;
 }
 
 .icons-container--description {
+  padding-top: .3rem;
   line-height: 1.3rem;
   margin-right: 1.5rem;
   margin-left: 1.5rem;
+}
+
+#links-container {
+  padding-top: 1rem;
+}
+
+#links-container>a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
 }

@@ -13,7 +13,6 @@ export function Details(props) {
       <section className='extra-margin'>
         <h1>{project.title}</h1>
         <p>{project.longDescription}</p>
-        <img />
 
         <h2 id="tools-title">What I've used?</h2>
         <section className='icons-container'>
@@ -24,6 +23,10 @@ export function Details(props) {
               <p className='icons-container--description'>{item.description}</p>
             </article>
           ))}
+        </section>
+        <h2 id='links-title'>Links</h2>
+        <section id='links-container'>
+          <a href={project.link}><img src='/icons/netlify.svg' />{project.link}</a>
         </section>
       </section>
       <Footer />

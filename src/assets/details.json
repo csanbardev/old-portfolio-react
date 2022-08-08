@@ -3,6 +3,7 @@
     {
       "id": 1,
       "title": "Aficiones-React",
+      "coverImage": "/img/aficiones-react.png",
       "tools": [
         {
           "name": "HTML",
