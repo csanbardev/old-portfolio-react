@@ -1,6 +1,6 @@
 import { Header } from "./Header";
 
-export function Contact() {
+export function About() {
   return (
     <>
       <Header />
