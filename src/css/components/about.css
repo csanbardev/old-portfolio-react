@@ -1,0 +1,48 @@
+/* About Styles */
+#about-banner {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3rem;
+}
+
+#about-banner article {
+  line-height: 1.6rem;
+}
+
+#about-skills {
+  padding-top: 2rem;
+  display: grid;
+  grid-auto-rows: auto;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
+  gap: 1rem;
+}
+
+#about-skills>article {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  background: #e1e2e6;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.about-skills--icon {
+  height: 4rem;
+  margin: 0;
+}
+
+
+
+
+@media (min-width: 1024px) {
+  #about-banner {
+    flex-direction: row;
+  }
+
+  #about-banner article {
+    width: 50%;
+    line-height: 1.6rem;
+  }
+}
