@@ -1,11 +1,59 @@
 /* Contact Styles */
-#contact{
+#contact {
   padding-top: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
-#contact .btn{
+
+#contact .btn {
   margin-top: 1.8rem;
+}
+
+
+
+#contact-form,
+#contact-area {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-area {
+  align-items: center;
+}
+
+#contact-form {
+  width: 90%;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  gap: 2rem;
+}
+
+#contact-form>input,
+#contact-form>textarea {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid black;
+}
+
+.contact-area--buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: end;
+}
+
+#contact-info {
+  width: 100%;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+@media(min-width: 1024px) {
+  #contact-form {
+    width: 50%;
+  }
 }

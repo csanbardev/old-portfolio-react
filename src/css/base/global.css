@@ -1,10 +1,12 @@
 body {
   min-height: 100vh;
   background: var(--background);
+
 }
 
 #root {
   font-family: 'Kanit-Regular';
+
 }
 
 
@@ -15,8 +17,9 @@ a {
   color: var(--paragraph);
   cursor: pointer;
 }
-a:hover{
-  color:var(--highlight);
+
+a:hover {
+  color: var(--highlight);
 }
 
 header {

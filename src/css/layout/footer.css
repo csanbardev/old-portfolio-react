@@ -1,6 +1,7 @@
 /* Footer Styles */
 
-footer{
+footer {
+
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -9,13 +10,14 @@ footer{
   padding-bottom: 5rem;
 }
 
-#footer--nav, #footer--socialMedia{
+#footer--nav,
+#footer--socialMedia {
   width: 50%;
   border-left: 1px solid black;
   padding-left: 2rem;
 }
 
-#footer--nav ul{
+#footer--nav ul {
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -23,19 +25,19 @@ footer{
 
 }
 
-#footer--socialMedia{
+#footer--socialMedia {
   display: flex;
   flex-direction: column;
   gap: .6rem;
 }
 
-#footer--socialMedia > a{
+#footer--socialMedia>a {
   display: flex;
   flex-direction: row;
   gap: 1.5rem;
   align-items: center;
 }
 
-#footer--socialMedia > a img{
+#footer--socialMedia>a img {
   height: 1.7rem;
 }
