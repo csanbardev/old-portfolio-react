@@ -17,9 +17,11 @@ export function Contact() {
             <button className="btn primary-button" type="reset">Cancelar</button>
           </section>
           <section id="contact-info">
-            <h2>Contact info</h2>
-            <label>+34 798 789 789</label>
-            <label>cristiansb97@outlook.com</label>
+            <h2>Contact info and links</h2>
+            <a href="cristiansb97@outlook.com"><img src="icons/email.svg" />cristiansb97@outlook.com</a>
+            <a href="www.linkedin.com/in/cristian-sánchez-barba"><img src="icons/linkedin.svg" />LinkedIn</a>
+            <a href="https://github.com/csanbardev"><img src="icons/github.svg" />GitHub</a>
+            <a href="https://twitter.com/CristianSBDev"><img src="icons/twitter.svg" />Twitter</a>
           </section>
         </form>
 
