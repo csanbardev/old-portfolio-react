@@ -2,7 +2,7 @@
 export function Footer() {
   return (
     <footer>
-      @{new Date().getFullYear()} Cristian Sánchez
+      Cristian Sánchez © {new Date().getFullYear()}
     </footer>
   )
 }
