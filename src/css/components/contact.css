@@ -69,3 +69,10 @@
     width: 50%;
   }
 }
+
+
+
+#contact-form>input:focus,
+textarea:focus {
+  outline: none;
+}
