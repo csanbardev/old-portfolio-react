@@ -6,7 +6,10 @@ body {
 
 #root {
   font-family: 'Kanit-Regular';
-
+  min-height: 100vh;
+  height: 100%;
+  padding-bottom: 16rem;
+  position: relative;
 }
 
 
@@ -28,4 +31,7 @@ header {
 
 footer {
   height: 8rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }

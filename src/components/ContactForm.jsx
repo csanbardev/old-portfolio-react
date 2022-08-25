@@ -41,13 +41,6 @@ export function ContactForm() {
           <input className="btn primary-button" type="submit" value="Send" />
           <input className="btn primary-button" type="reset" value="Cancel" />
         </section>
-        <section id="contact-info">
-          <h2>Contact info and links</h2>
-          <a href="cristiansb97@outlook.com"><img src="icons/email.svg" />cristiansb97@outlook.com</a>
-          <a href="www.linkedin.com/in/cristian-sánchez-barba"><img src="icons/linkedin.svg" />LinkedIn</a>
-          <a href="https://github.com/csanbardev"><img src="icons/github.svg" />GitHub</a>
-          <a href="https://twitter.com/CristianSBDev"><img src="icons/twitter.svg" />Twitter</a>
-        </section>
       </form>
     </>
   )
