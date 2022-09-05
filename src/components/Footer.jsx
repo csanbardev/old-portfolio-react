@@ -1,3 +1,5 @@
+import '../css/components/footer.css'
+
 
 export function Footer() {
   return (

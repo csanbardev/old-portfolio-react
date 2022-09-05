@@ -2,6 +2,7 @@ import { Header } from './Header'
 import { Footer } from './Footer'
 import { useParams } from 'react-router-dom'
 import details from '../assets/details.json'
+import '../css/components/details.css'
 
 export function Details(props) {
   const { id } = useParams()

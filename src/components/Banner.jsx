@@ -1,3 +1,5 @@
+import '../css/components/banner.css'
+
 
 export function Banner() {
   return (

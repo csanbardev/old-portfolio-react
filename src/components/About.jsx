@@ -1,5 +1,6 @@
 import { Header } from "./Header";
 import { Footer } from "./Footer";
+import '../css/components/about.css'
 
 export function About() {
   return (

@@ -1,4 +1,5 @@
 import { useForm } from "../hooks/useForm";
+import '../css/components/contact.css'
 
 const initialForm = {
   name: "",

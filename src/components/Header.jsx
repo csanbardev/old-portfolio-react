@@ -1,3 +1,6 @@
+import '../css/components/header.css'
+import '../css/components/navigation.css'
+
 
 export function Header() {
   return (

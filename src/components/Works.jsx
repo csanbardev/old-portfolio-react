@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import { Project } from "./Project"
 import details from '../assets/details.json'
+import '../css/components/works.css'
 
 export function Works() {
   const [projects, setProjects] = useState([])

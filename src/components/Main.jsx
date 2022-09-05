@@ -1,5 +1,6 @@
 import { Banner } from "./Banner"
 import { Works } from "./Works"
+import '../css/components/contact.css'
 
 export function Main() {
   return (
