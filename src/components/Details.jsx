@@ -27,7 +27,9 @@ export function Details(props) {
         </section>
         <h2 id='links-title'>Links</h2>
         <section id='links-container'>
-          <a href={project.link}><img src='/icons/netlify.svg' />{project.link}</a>
+          {project.links.map(item => (
+            <a href={item.link}><img src={item.iconLink} />{item.link}</a>
+          ))}
         </section>
       </section>
       <Footer />

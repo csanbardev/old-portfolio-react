@@ -2,7 +2,7 @@
   "projects": [
     {
       "id": 1,
-      "title": "Aficiones-React",
+      "title": "Crisflix",
       "coverImage": "/img/aficiones-react.png",
       "tools": [
         {
@@ -40,7 +40,16 @@
       ],
       "shortDescription": "It shows all my favourite series, animes and films",
       "longDescription": "It shows all my favourite series, animes and films. It get data from an API that call a external list created by me",
-      "link": "https://aficiones-react.netlify.app"
+      "links": [
+        {
+          "iconLink": "/icons/netlify.svg",
+          "link": "https://aficiones-react.netlify.app"
+        },
+        {
+          "iconLink": "/icons/github.svg",
+          "link": "https://github.com/csanbardev/crisflix"
+        }
+      ]
     }
   ]
 }
