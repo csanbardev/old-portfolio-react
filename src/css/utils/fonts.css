@@ -1,25 +1,38 @@
 @font-face {
-  font-family: 'Kanit-Regular';
-  src: url(/fonts/Kanit-Regular.ttf);
+  font-family: 'Lekton-Regular';
+  src: url(/fonts/Lekton-Regular.ttf);
 }
 
-body{
+body {
   font-size: 16px;
 }
 
 
-@media (min-width: 1280){
-  body{
+@media (min-width: 1280) {
+  body {
     font-size: 19px;
   }
 }
 
 
 /* Text Styles */
-.title-text{
+.title-text {
   font-size: var(--size-lg);
 }
 
-h3{
-  font-size: var(--size-lg);
+h2 {
+  font-size: var(--size-xl);
+  line-height: 2.8rem;
+}
+
+h3 {
+  font-size: var(--size-md);
+}
+
+p {
+  font-size: var(--size-base);
+}
+
+h1 {
+  font-size: var(--size-xl);
 }
