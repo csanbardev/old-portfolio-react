@@ -81,7 +81,10 @@ export function About() {
           </div>
         </section>
       </section>
-
+      <section className="extra-margin" id="about-contact">
+        <h2 >Anything else? Contact me!</h2>
+        <a href="contact" className="btn btn-primary">Get in touch</a>
+      </section>
       <Footer />
     </>
   )
