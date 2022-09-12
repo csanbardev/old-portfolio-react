@@ -8,22 +8,22 @@
         {
           "name": "HTML",
           "iconLink": "/icons/tecnologies/html.svg",
-          "description": "La base del proyecto, por supuesto, es HTML5. He prestado especial atención a los bloques semánticos y a detalles SEO"
+          "description": "Where all starts. I pay special attention to semantic tags and having a clear structure"
         },
         {
           "name": "CSS",
           "iconLink": "/icons/tecnologies/css.svg",
-          "description": "Puro CSS, sin librerías ni complementos. He recurrido a las funcionalidades más recientes para hacer la web responsive"
+          "description": "Pure CSS; neither frameworks or complements. Mobile first builds with Grid and some Flexbox"
         },
         {
           "name": "React",
           "iconLink": "/icons/tecnologies/react.svg",
-          "description": "Mi primer proyecto con React. He creado componentes propios y he recurrido a React-Router para la paginación"
+          "description": "It's my first React project. I developed my own components and I used React-Router for links between pages"
         },
         {
           "name": "Vite",
           "iconLink": "/icons/tecnologies/vite.svg",
-          "description": "El toque mágico de Vite permite que la web esté más optimizada y que el proceso de creación haya sido más rápido"
+          "description": "The magic touch comes from Vite. It helps to get the page going fluid and fast"
         }
       ],
       "tecnologies": [
@@ -39,7 +39,7 @@
         "/icons/tecnologies/vite.svg"
       ],
       "shortDescription": "It shows all my favourite series, animes and films",
-      "longDescription": "It shows all my favourite series, animes and films. It get data from an API that call a external list created by me",
+      "longDescription": "All my favourite series, animes and films in one place. I built it with React and using The Movie Database API. Here also you can check what I've used to create it. Although it's a simple project, it was nice to learn React and Vite. Also, I tried to revise more complex CSS properties, like Grid or Flex (avoiding media query).",
       "links": [
         {
           "iconLink": "/icons/netlify.svg",
