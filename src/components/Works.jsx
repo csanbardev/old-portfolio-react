@@ -15,7 +15,7 @@ export function Works() {
   return (
     <section className="extra-margin" id="works">
       {projects.map(project => (
-        <Project key={project.id} title={project.title} subtitle={project.shortDescription} link={`project/${project.id}`} />
+        <Project key={project.id} img={project.coverImage} title={project.title} subtitle={project.shortDescription} tech={project.tecnologies} links={project.links} />
       ))}
     </section>
   )

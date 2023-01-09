@@ -3,153 +3,57 @@
     {
       "id": 1,
       "title": "Crisflix",
-      "coverImage": "/img/aficiones-react.png",
-      "tools": [
-        {
-          "name": "HTML",
-          "iconLink": "/icons/tecnologies/html.svg",
-          "description": "Where all starts. I pay special attention to semantic tags and having a clear structure"
-        },
-        {
-          "name": "CSS",
-          "iconLink": "/icons/tecnologies/css.svg",
-          "description": "Pure CSS; neither frameworks or complements. Mobile first builds with Grid and some Flexbox"
-        },
-        {
-          "name": "React",
-          "iconLink": "/icons/tecnologies/react.svg",
-          "description": "It's my first React project. I developed my own components and I used React-Router for links between pages"
-        },
-        {
-          "name": "Vite",
-          "iconLink": "/icons/tecnologies/vite.svg",
-          "description": "The magic touch comes from Vite. It helps to get the page going fluid and fast"
-        }
-      ],
+      "coverImage": "/img/crisflix.png",
       "tecnologies": [
         "HTML",
         "CSS",
         "React",
         "Vite"
       ],
-      "icons": [
-        "/icons/tecnologies/html.svg",
-        "/icons/tecnologies/css.svg",
-        "/icons/tecnologies/react.svg",
-        "/icons/tecnologies/vite.svg"
-      ],
-      "shortDescription": "It shows all my favourite series, animes and films",
-      "longDescription": "All my favourite series, animes and films in one place. I built it with React and using The Movie Database API. Here also you can check what I've used to create it. Although it's a simple project, it was nice to learn React and Vite. Also, I tried to revise more complex CSS properties, like Grid or Flex (avoiding media query).",
+      "shortDescription": "Muestra una sucesión de películas, series y animes a partir de una API externa",
       "links": [
         {
-          "iconLink": "/icons/netlify.svg",
+          "linkName": "Webpage",
           "link": "https://crisflix.netlify.app"
         },
         {
-          "iconLink": "/icons/github.svg",
+          "linkName": "Repo",
           "link": "https://github.com/csanbardev/crisflix"
         }
       ]
     },
     {
       "id": 2,
-      "title": "Crisflix",
-      "coverImage": "/img/aficiones-react.png",
-      "tools": [
-        {
-          "name": "HTML",
-          "iconLink": "/icons/tecnologies/html.svg",
-          "description": "Where all starts. I pay special attention to semantic tags and having a clear structure"
-        },
-        {
-          "name": "CSS",
-          "iconLink": "/icons/tecnologies/css.svg",
-          "description": "Pure CSS; neither frameworks or complements. Mobile first builds with Grid and some Flexbox"
-        },
-        {
-          "name": "React",
-          "iconLink": "/icons/tecnologies/react.svg",
-          "description": "It's my first React project. I developed my own components and I used React-Router for links between pages"
-        },
-        {
-          "name": "Vite",
-          "iconLink": "/icons/tecnologies/vite.svg",
-          "description": "The magic touch comes from Vite. It helps to get the page going fluid and fast"
-        }
-      ],
+      "title": "CRUD PHP",
+      "coverImage": "/img/CRUD-php.png",
       "tecnologies": [
         "HTML",
-        "CSS",
-        "React",
-        "Vite"
+        "Bootstrap",
+        "PHP",
+        "MySQL"
       ],
-      "icons": [
-        "/icons/tecnologies/html.svg",
-        "/icons/tecnologies/css.svg",
-        "/icons/tecnologies/react.svg",
-        "/icons/tecnologies/vite.svg"
-      ],
-      "shortDescription": "It shows all my favourite series, animes and films",
-      "longDescription": "All my favourite series, animes and films in one place. I built it with React and using The Movie Database API. Here also you can check what I've used to create it. Although it's a simple project, it was nice to learn React and Vite. Also, I tried to revise more complex CSS properties, like Grid or Flex (avoiding media query).",
+      "shortDescription": "CRUD básico con PHP para trabajar con usuarios y una base de datos de MySQL",
       "links": [
         {
-          "iconLink": "/icons/netlify.svg",
-          "link": "https://crisflix.netlify.app"
-        },
-        {
-          "iconLink": "/icons/github.svg",
-          "link": "https://github.com/csanbardev/crisflix"
+          "linkName": "Repo",
+          "link": "https://github.com/csanbardev/CRUD-PHP"
         }
       ]
     },
     {
       "id": 3,
-      "title": "Crisflix",
-      "coverImage": "/img/aficiones-react.png",
-      "tools": [
-        {
-          "name": "HTML",
-          "iconLink": "/icons/tecnologies/html.svg",
-          "description": "Where all starts. I pay special attention to semantic tags and having a clear structure"
-        },
-        {
-          "name": "CSS",
-          "iconLink": "/icons/tecnologies/css.svg",
-          "description": "Pure CSS; neither frameworks or complements. Mobile first builds with Grid and some Flexbox"
-        },
-        {
-          "name": "React",
-          "iconLink": "/icons/tecnologies/react.svg",
-          "description": "It's my first React project. I developed my own components and I used React-Router for links between pages"
-        },
-        {
-          "name": "Vite",
-          "iconLink": "/icons/tecnologies/vite.svg",
-          "description": "The magic touch comes from Vite. It helps to get the page going fluid and fast"
-        }
-      ],
+      "title": "Listado Pokémon",
+      "coverImage": "/img/listado-pokemon.png",
       "tecnologies": [
-        "HTML",
-        "CSS",
-        "React",
-        "Vite"
+        "Kotlin",
+        "Android Studio",
+        "Jetpack Compose"
       ],
-      "icons": [
-        "/icons/tecnologies/html.svg",
-        "/icons/tecnologies/css.svg",
-        "/icons/tecnologies/react.svg",
-        "/icons/tecnologies/vite.svg"
-      ],
-      "shortDescription": "It shows all my favourite series, animes and films",
-      "longDescription": "All my favourite series, animes and films in one place. I built it with React and using The Movie Database API. Here also you can check what I've used to create it. Although it's a simple project, it was nice to learn React and Vite. Also, I tried to revise more complex CSS properties, like Grid or Flex (avoiding media query).",
+      "shortDescription": "App para Android que muestra un listado dinámico de Pokémon y con una mínima interacción",
       "links": [
         {
-          "iconLink": "/icons/netlify.svg",
-          "link": "https://crisflix.netlify.app"
-        },
-        {
-          "iconLink": "/icons/github.svg",
-          "link": "https://github.com/csanbardev/crisflix"
+          "linkName": "Repo",
+          "link": "https://github.com/csanbardev/Pokemon-list"
         }
       ]
     }
