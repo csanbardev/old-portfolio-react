@@ -6,7 +6,16 @@ export function Project(props) {
       <div className="card-info extra-margin">
         <h3 className="card-title">{props.title}</h3>
         <h4 className="card-subtitle">{props.subtitle}</h4>
-        <a href={props.link} className="card-link">Show Details</a>
+        <div className="card-label-container">
+          <span className="card-label">HTML</span>
+          <span className="card-label">React</span>
+          <span className="card-label">Git</span>
+        </div>
+        <div className="card-buttons-container">
+          <a href={props.link} className="btn btn-primary card-link">Website</a>
+          <a href={props.link} className="btn btn-primary card-link">Repo</a>
+        </div>
+
       </div>
     </article>
   )

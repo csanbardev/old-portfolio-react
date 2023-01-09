@@ -2,11 +2,12 @@
 
 #works{
   display: grid;
-  grid-auto-rows: 18rem;
-  
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin-top: 2rem;
+  gap: 1rem;
+  
 }
-
+/*
 @media (min-width: 1024px) {
   #works{
     grid-auto-rows: 32rem;

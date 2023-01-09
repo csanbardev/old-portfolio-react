@@ -13,7 +13,7 @@ export function Works() {
   const proyectos = details.projects
 
   return (
-    <section id="works">
+    <section className="extra-margin" id="works">
       {projects.map(project => (
         <Project key={project.id} title={project.title} subtitle={project.shortDescription} link={`project/${project.id}`} />
       ))}
