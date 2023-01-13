@@ -20,7 +20,7 @@ export function About() {
         </article>
       </section>
 
-      <h2 className="extra-margin">Skills</h2>
+      <h2 id='skills-nav' className="extra-margin">Skills</h2>
       <section className="extra-margin" id="about-skills">
         <article>
           <img className='about-skills--icon' src='icons/tecnologies/html.svg' />
