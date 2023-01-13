@@ -1,16 +1,15 @@
 import { Banner } from "./Banner"
 import { Works } from "./Works"
 import '../css/components/contact.css'
+import { About } from "./About"
+import { Contact } from "./Contact"
 
 export function Main() {
   return (
     <main>
-      <Banner />
+      <About />
       <Works />
-      <section className="extra-margin" id="contact">
-        <h3 className="text">Want a talk? You're in the right place.</h3>
-        <a href="contact" className="btn btn-primary">Get in touch</a>
-      </section>
+      <Contact />
     </main>
   )
 

@@ -31,7 +31,7 @@ export function ContactForm() {
   return (
     <>
       <form id="contact-form" onSubmit={handleSubmit}>
-        <h2>Contact me!</h2>
+        <h3>Just write</h3>
         <input placeholder='NAME' type='text' name="name" onChange={handleChange} value={form.name} onBlur={handleBlur} required />
         <input placeholder='EMAIL' type='email' name="email" onChange={handleChange} value={form.email} onBlur={handleBlur} required />
         <textarea cols={50} placeholder='WRITE YOUR MESSAGE' name="message" onChange={handleChange} value={form.message} onBlur={handleBlur} required />
