@@ -31,10 +31,10 @@ export function ContactForm() {
   return (
     <>
       <form id="contact-form" onSubmit={handleSubmit}>
-        <h3>Just write</h3>
-        <input placeholder='NAME' type='text' name="name" onChange={handleChange} value={form.name} onBlur={handleBlur} required />
-        <input placeholder='EMAIL' type='email' name="email" onChange={handleChange} value={form.email} onBlur={handleBlur} required />
-        <textarea cols={50} placeholder='WRITE YOUR MESSAGE' name="message" onChange={handleChange} value={form.message} onBlur={handleBlur} required />
+        <h3>Want a talk?</h3>
+        <input className="contact-input" placeholder='NAME' type='text' name="name" onChange={handleChange} value={form.name} onBlur={handleBlur} required />
+        <input className="contact-input" placeholder='EMAIL' type='email' name="email" onChange={handleChange} value={form.email} onBlur={handleBlur} required />
+        <textarea className="contact-input" placeholder='WRITE YOUR MESSAGE' name="message" onChange={handleChange} value={form.message} onBlur={handleBlur} required />
         <section className="contact-area--buttons">
           <input className="btn primary-button" type="submit" value="Send" />
           <input className="btn primary-button" type="reset" value="Cancel" />
