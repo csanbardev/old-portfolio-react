@@ -56,6 +56,27 @@
           "link": "https://github.com/csanbardev/Pokemon-list"
         }
       ]
+    },
+    {
+      "id": 4,
+      "title": "Web del Tiempo",
+      "coverImage": "/img/web-el-tiempo.png",
+      "tecnologies": [
+        "JavaScript",
+        "CSS",
+        "AJAX"
+      ],
+      "shortDescription": "Web del tiempo consumiendo la API de OpenWeather",
+      "links": [
+        {
+          "linkName": "Webpage",
+          "link": "https://csanbardev.github.io/el-tiempo-web/"
+        },
+        {
+          "linkName": "Repo",
+          "link": "https://github.com/csanbardev/el-tiempo-web"
+        }
+      ]
     }
   ]
 }
