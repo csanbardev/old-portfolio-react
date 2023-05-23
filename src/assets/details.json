@@ -24,41 +24,6 @@
     },
     {
       "id": 2,
-      "title": "CRUD PHP",
-      "coverImage": "/img/CRUD-php.png",
-      "tecnologies": [
-        "HTML",
-        "Bootstrap",
-        "PHP",
-        "MySQL"
-      ],
-      "shortDescription": "CRUD básico con PHP para trabajar con usuarios y una base de datos de MySQL",
-      "links": [
-        {
-          "linkName": "Repo",
-          "link": "https://github.com/csanbardev/CRUD-PHP"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Listado Pokémon",
-      "coverImage": "/img/listado-pokemon.png",
-      "tecnologies": [
-        "Kotlin",
-        "Android Studio",
-        "Jetpack Compose"
-      ],
-      "shortDescription": "App para Android que muestra un listado dinámico de Pokémon y con una mínima interacción",
-      "links": [
-        {
-          "linkName": "Repo",
-          "link": "https://github.com/csanbardev/Pokemon-list"
-        }
-      ]
-    },
-    {
-      "id": 4,
       "title": "Web del Tiempo",
       "coverImage": "/img/web-el-tiempo.png",
       "tecnologies": [
@@ -75,6 +40,46 @@
         {
           "linkName": "Repo",
           "link": "https://github.com/csanbardev/el-tiempo-web"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Recetazas - Laravel",
+      "coverImage": "/img/recetazas-laravel.png",
+      "tecnologies": [
+        "Laravel",
+        "PHP",
+        "MySQL",
+        "Blade"
+      ],
+      "shortDescription": "Blog de recetas con usuarios, roles y controles de administrador",
+      "links": [
+        {
+          "linkName": "Repo",
+          "link": "https://github.com/csanbardev/recetazas-laravel"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "El Universo",
+      "coverImage": "/img/el-universo.png",
+      "tecnologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap"
+      ],
+      "shortDescription": "Web sencilla que muestra imágenes del universo y lanzamientos de SpaceX",
+      "links": [
+        {
+          "linkName": "Repo",
+          "link": "https://github.com/csanbardev/el-universo"
+        },
+        {
+          "linkName": "Webpage",
+          "link": "https://csanbardev.github.io/el-universo/"
         }
       ]
     }
